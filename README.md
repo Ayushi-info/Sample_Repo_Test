@@ -1,11 +1,10 @@
-# Project Name
-HelloKotlin
+# Kotlin Hello World
 
-## Description
-Hello Kotlin project
+A simple Kotlin project that prints a hello message.
 
-## Setup
-Steps to run the project locally.
+## Run
+Compile and run using Kotlin:
 
-## Tech Stack
-- ...
+```bash
+kotlinc Main.kt -include-runtime -d app.jar
+java -jar app.jar
